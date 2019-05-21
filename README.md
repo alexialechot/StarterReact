@@ -1,5 +1,6 @@
 # ReactStarter
 
+![Preview](./preview.png)
 
 <br><hr><br>
 
@@ -21,12 +22,12 @@ $ yarn start
 # will automatically open the project in localhost
 ```
 
-## Install router SASS Bootstrap
+## Install router; SASS; Bootstrap; react-scroll; styled-components (allready installed)
 ```sh
-$ yarn add react-router-dom node-sass jquery popper.js bootstrap
+$ yarn add react-router-dom node-sass jquery popper.js bootstrap react-scroll styled-components
 ```
 
-Add theses lines to src/index.js:
+src/index.js:
 ```ES6
 import 'bootstrap/dist/css/bootstrap.css'
 /** jQuery first, then Popper.js, then Bootstrap JS */

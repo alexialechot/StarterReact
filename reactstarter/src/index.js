@@ -6,7 +6,8 @@ import ReactDOM from 'react-dom'
 import './index.css'
 /** bootstrap */
 import 'bootstrap/dist/css/bootstrap.css'
-/** */
+/** custom scss */
+import './scss/index.scss'
 
 /** APP */
 import App from './App'
