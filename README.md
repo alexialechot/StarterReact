@@ -28,12 +28,18 @@ $ create-react-app myreactwebappname
 
 ## Install router; SASS; Bootstrap; react-scroll; styled-components (allready installed)
 ```sh
-$ yarn add react-router-dom node-sass jquery popper.js bootstrap react-scroll styled-components
+$ yarn add react-router-dom node-sass jquery popper.js bootstrap react-scroll styled-components font-awesome
 ```
 
 src/index.js:
 ```ES6
+/** CSS */
+/** bootstrap */
 import 'bootstrap/dist/css/bootstrap.css'
+/** font-awesome */
+import 'font-awesome/css/font-awesome.min.css'
+
+/** JS */
 /** jQuery first, then Popper.js, then Bootstrap JS */
 import 'jquery/dist/jquery.min.js'
 import 'popper.js/dist/popper-utils.js'

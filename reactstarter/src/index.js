@@ -6,6 +6,8 @@ import ReactDOM from 'react-dom'
 import './index.css'
 /** bootstrap */
 import 'bootstrap/dist/css/bootstrap.css'
+/** font-awesome */
+import 'font-awesome/css/font-awesome.min.css'
 /** custom scss */
 import './scss/index.scss'
 
