@@ -1,15 +1,13 @@
-# ReactStarter
+# ReactStarter 
+## may 2019
 
 ![Preview](./preview.png)
 
 <br><hr><br>
 
+
+
 # REMINDER
-## Install React 
-```sh
-$ yarn global add create-react-app
-$ create-react-app myreactwebappname
-```
 
 ## Install node.js
 ```sh
@@ -20,6 +18,12 @@ $ yarn i
 ```sh
 $ yarn start 
 # will automatically open the project in localhost
+```
+
+## Install React (allready installed)
+```sh
+$ yarn global add create-react-app
+$ create-react-app myreactwebappname
 ```
 
 ## Install router; SASS; Bootstrap; react-scroll; styled-components (allready installed)
