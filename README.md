@@ -26,7 +26,7 @@ $ yarn global add create-react-app
 $ create-react-app myreactwebappname
 ```
 
-## Install router; SASS; Bootstrap; react-scroll; styled-components; Font-awesome (allready installed)
+## Install router + SASS + Bootstrap + Scroll animation + styled-components + Font-awesome (allready installed)
 ```sh
 $ yarn add react-router-dom node-sass jquery popper.js bootstrap react-scroll styled-components font-awesome
 ```
