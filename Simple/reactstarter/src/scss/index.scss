@@ -1,0 +1,27 @@
+@import './font.scss';
+
+html,
+body {
+	height: 100%;
+	margin: 0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 0.0625em;
+}
+
+// Border radius
+$border-radius: 1.3rem;
+
+// mx- my- mt- mb- !!!
+$spacers: ('6': 6rem, '7': 7.7rem, '8': 6.5rem, '9': 10rem, '10': 11.6rem, '11': 12rem);
+
+// bg et text
+$dark: black;
+
+// couleur pour mes titres
+$secondary: #d5d5d5 !default;
+
+// Import Bootstrap
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';

@@ -1,5 +1,5 @@
 # ReactStarter 
-## Updated: Juli 2019
+## Updated: June 2019
 
 ![Preview](./preview.png)
 

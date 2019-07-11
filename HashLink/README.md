@@ -1,11 +1,9 @@
-# ReactStarter 
-## Updated: Juli 2019
+# ReactStarter + # Hash (anchor) link 
+## updated: june 2019
 
-![Preview](./preview.png)
+![Preview](./preview2.png)
 
 <br><hr><br>
-
-
 
 # REMINDER
 
@@ -46,10 +44,16 @@ import 'popper.js/dist/popper-utils.js'
 import 'bootstrap/dist/js/bootstrap.min.js'
 ```
 
+## Install Hash Link + Scroll spy (allready installed)
+```sh
+yarn add react-router-hash-link react-scrollspy
+```
+
+
 ## [Convert online favicon to .ico](https://redketchup.io/icon-converter) 🥫
 64, 32, 24, 16
 
 
 <br><hr><br>
 
-&copy; 2019 [Alexia Lechot / KRAKENWAVE](https://krakenwave.ch)
+&copy; 2019 [Alexia Lechot](https://uxmilk.co)
