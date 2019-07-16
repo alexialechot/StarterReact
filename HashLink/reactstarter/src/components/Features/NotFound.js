@@ -3,7 +3,7 @@ import React, { Component, Fragment } from 'react'
 /** Component */
 
 /** Images */
-import { logo } from '../../../img'
+import { logo } from '../../img'
 
 export default class NotFound extends Component {
 	render() {
@@ -12,7 +12,7 @@ export default class NotFound extends Component {
 				<div className="App">
 					<header className="App-header">
 						<img src={logo} className="App-logo" alt="logo" />
-						<p>
+						<p className="mt-3">
 							<code>Error 404 </code> Page not found
 						</p>
 					</header>

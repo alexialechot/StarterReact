@@ -1,27 +1,60 @@
 @import './font.scss';
+@import './navbar.scss';
+@import './footer.scss';
 
-html,
-body {
-	height: 100%;
-	margin: 0;
-}
-
+/* - - - - - - - - - - - - - - - - - - - - - GENERALE - - - - - - - - - - - - - - - - - - - - - - */
 body {
 	font-family: 'Roboto', sans-serif;
 	letter-spacing: 0.0625em;
+	background-color: rgb(250, 250, 250);
+	color: black;
 }
-
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+/* - - - - - - - BOOTSTRAP - - - - - - - - */
 // Border radius
 $border-radius: 1.3rem;
-
 // mx- my- mt- mb- !!!
 $spacers: ('6': 6rem, '7': 7.7rem, '8': 6.5rem, '9': 10rem, '10': 11.6rem, '11': 12rem);
-
 // bg et text
-$dark: black;
-
+$dark: #333333;
 // couleur pour mes titres
 $secondary: #d5d5d5 !default;
-
+$primary: aqua !default;
 // Import Bootstrap
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+/* - - - - - - - A - - - - - - - - */
+a:hover {
+	text-decoration: none;
+	color: $primary;
+}
+
+/* - - - - - - - BUTTON - - - - - - - - */
+/* WHITE */
+.BtnWhite {
+	padding: 10px 20px 4px 20px;
+	background: rgba(255, 255, 255, 0);
+	border-radius: 20px;
+	border: 2px solid rgba(255, 255, 255, 1);
+	color: white;
+	outline: none;
+	transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.BtnWhite:hover {
+	background: rgb(255, 255, 255);
+	border: 2px solid rgba(255, 255, 255, 1);
+	color: black;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+	text-decoration: none;
+}
+.active .BtnWhite {
+	background: rgb(255, 255, 255);
+	border: 2px solid rgba(255, 255, 255, 1);
+	color: black;
+}
+.btn {
+	border-radius: 6rem;
+	outline: none;
+}

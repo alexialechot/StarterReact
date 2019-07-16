@@ -7,10 +7,7 @@ import { animateScroll as scroll } from 'react-scroll'
 import Scrollspy from 'react-scrollspy'
 
 /** Images */
-import { logo } from '../../../img'
-
-/** CSS */
-import './NavBar.css'
+import { logo } from '../../img'
 
 export default class NavBar extends Component {
 	constructor(props) {
@@ -45,8 +42,8 @@ export default class NavBar extends Component {
 					className={
 						// if hasScrolled is true
 						this.state.hasScrolled
-							? 'NavbarScrolled navbar navbar-expand-lg navbar-dark navi mb-5 fixed-top AnimationNav'
-							: 'navbar navbar-expand-lg navbar-dark navi mb-5 fixed-top AnimationNav'
+							? 'NavbarScrolled navbar navbar-expand-lg navbar-dark mb-5 fixed-top AnimationNav'
+							: 'navbar navbar-expand-lg navbar-dark mb-5 fixed-top AnimationNav'
 					}
 				>
 					<div className="container">
@@ -70,10 +67,12 @@ export default class NavBar extends Component {
 								items={['1', '2', '3']}
 								currentClassName="active"
 							>
-								<li className="nav-item">
-									<Link
-										className="nav-link" to="#1" smooth={true}
-									>
+								<li
+									className="nav-item"
+									data-toggle="collapse"
+									data-target=".navbar-collapse.show"
+								>
+									<Link className="nav-link" to="#1" smooth={true}>
 										<button
 											type="button"
 											className="btn BtnWhite font-weight-bold"
@@ -82,10 +81,12 @@ export default class NavBar extends Component {
 										</button>
 									</Link>
 								</li>
-								<li className="nav-item">
-									<Link
-										className="nav-link" to="#2" smooth={true}
-									>
+								<li
+									className="nav-item"
+									data-toggle="collapse"
+									data-target=".navbar-collapse.show"
+								>
+									<Link className="nav-link" to="#2" smooth={true}>
 										<button
 											type="button"
 											className="btn BtnWhite font-weight-bold"
@@ -94,10 +95,12 @@ export default class NavBar extends Component {
 										</button>
 									</Link>
 								</li>
-								<li className="nav-item">
-									<Link
-										className="nav-link" to="#3" smooth={true}
-									>
+								<li
+									className="nav-item"
+									data-toggle="collapse"
+									data-target=".navbar-collapse.show"
+								>
+									<Link className="nav-link" to="#3" smooth={true}>
 										<button
 											type="button"
 											className="btn BtnWhite font-weight-bold"

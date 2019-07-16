@@ -1,8 +1,5 @@
 import React, { Component } from 'react'
 
-/** CSS */
-import './Footer.css'
-
 /** Images */
 
 export default class Footer extends Component {
