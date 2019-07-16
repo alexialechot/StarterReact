@@ -5,8 +5,8 @@
 ### Simple:
 ![Preview](./Simple/preview.png)
 
-### HashLink:
-![Preview](./HashLink/preview2.png)
+### OnePage:
+![Preview](./OnePage/preview2.png)
 
 
 <br><hr><br>
