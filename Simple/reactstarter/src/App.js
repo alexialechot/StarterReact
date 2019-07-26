@@ -11,23 +11,21 @@ export default class App extends Component {
 				{/* like index.js - default page that are implemented in all pages */}
 
 				<Router>
-					<div className="body">
-						{/* NAVBAR */}
-						<NavBar />
+					{/* NAVBAR */}
+					<NavBar />
 
-						{/* CONTENT */}
+					{/* CONTENT */}
 
-						{/* ROUTER */}
-						{/* Select page for each path */}
+					{/* ROUTER */}
+					{/* Select page for each path */}
 
-						<Switch>
-							{/* MENU - NAVBAR */}
-							<Route exact path="/" component={ReactStarter} />
+					<Switch>
+						{/* MENU - NAVBAR */}
+						<Route exact path="/" component={ReactStarter} />
 
-							{/* 404 */}
-							<Route path="" component={NotFound} />
-						</Switch>
-					</div>
+						{/* 404 */}
+						<Route path="" component={NotFound} />
+					</Switch>
 				</Router>
 
 				{/* FOOTER */}

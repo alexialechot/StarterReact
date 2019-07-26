@@ -1,11 +1,11 @@
-import React, { Component } from 'react'
+import React, { Component, Fragment } from 'react'
 
 /** Images */
 
 export default class Footer extends Component {
 	render() {
 		return (
-			<div>
+			<Fragment>
 				<div className="Footer text-center bg-dark text-white">
 					{/* COPYRIGHT */}
 					<div className=" py-2">
@@ -22,7 +22,7 @@ export default class Footer extends Component {
 						</h3>
 					</div>
 				</div>
-			</div>
+			</Fragment>
 		)
 	}
 }
