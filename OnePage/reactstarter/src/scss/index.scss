@@ -17,15 +17,19 @@ code {
 $border-radius: 1.3rem;
 // mx- my- mt- mb- !!!
 $spacers: ('6': 6rem, '7': 7.7rem, '8': 6.5rem, '9': 10rem, '10': 11.6rem, '11': 12rem);
-// bg et text
-$dark: #333333;
-// couleur pour mes titres
+
+// couleurs bootstrap
+$dark: black;
 $secondary: #d5d5d5 !default;
-$primary: aqua !default;
+$primary: rgb(17, 0, 255) !default;
+
 // Import Bootstrap
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 
 /* - - - - - - - A - - - - - - - - */
+a {
+	color: #61dafb;
+}
 a:hover {
 	text-decoration: none;
 	color: $primary;
@@ -33,6 +37,10 @@ a:hover {
 
 /* - - - - - - - BUTTON - - - - - - - - */
 /* WHITE */
+.btn {
+	border-radius: 6rem;
+	outline: none;
+}
 .BtnWhite {
 	padding: 10px 20px 4px 20px;
 	background: rgba(255, 255, 255, 0);
@@ -53,8 +61,4 @@ a:hover {
 	background: rgb(255, 255, 255);
 	border: 2px solid rgba(255, 255, 255, 1);
 	color: black;
-}
-.btn {
-	border-radius: 6rem;
-	outline: none;
 }

@@ -3,10 +3,7 @@ import { Events, animateScroll as scroll, scroller } from 'react-scroll'
 import { NavLink } from 'react-router-dom'
 
 /** Images */
-import { logo } from '../../../img'
-
-/** CSS */
-import './NavBar.css'
+import { logo } from '../../img'
 
 export default class NavBar extends Component {
 	constructor(props) {
@@ -36,7 +33,7 @@ export default class NavBar extends Component {
 	render() {
 		return (
 			<Fragment>
-				<nav className="navbar navbar-expand-lg navbar-dark navi mb-5 fixed-top AnimationNav">
+				<nav className="navbar navbar-expand-lg navbar-dark mb-5 fixed-top AnimationNav">
 					<div className="container">
 						<NavLink className="navbar-brand" to="/" onClick={this.scrollToTop}>
 							<img src={logo} alt={logo} height="30" />

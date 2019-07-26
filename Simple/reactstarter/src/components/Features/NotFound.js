@@ -1,9 +1,7 @@
 import React, { Component, Fragment } from 'react'
 
-/** Component */
-
 /** Images */
-import { logo } from '../../../img'
+import { logo } from '../../img'
 
 export default class NotFound extends Component {
 	render() {

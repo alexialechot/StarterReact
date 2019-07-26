@@ -1,15 +1,10 @@
 import React, { Component } from 'react'
 
-/** CSS */
-import './Footer.css'
-
-/** Images */
-
 export default class Footer extends Component {
 	render() {
 		return (
 			<div>
-				<div className="Footer text-center bg-dark text-white">
+				<div className="text-center bg-dark text-white" id="Footer">
 					{/* COPYRIGHT */}
 					<div className=" py-2">
 						<h3>

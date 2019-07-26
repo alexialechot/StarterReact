@@ -2,13 +2,13 @@
 
 /** PAGES -  FEATURES */
 /** PAGE 404 */
-export { default as NotFound } from './Features/NotFound/NotFound'
-export { default as ReactStarter } from './Features/ReactStarter/ReactStarter'
+export { default as NotFound } from './Features/NotFound'
+export { default as ReactStarter } from './Features/ReactStarter'
 
 /** COMPONENTS - PARTIALS*/
 /** Navbar */
-export { default as NavBar } from './Partials/NavBar/NavBar'
+export { default as NavBar } from './Partials/NavBar'
 /** Footer */
-export { default as Footer } from './Partials/Footer/Footer'
+export { default as Footer } from './Partials/Footer'
 
 /** Header */
