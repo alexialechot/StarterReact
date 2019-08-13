@@ -16,10 +16,10 @@ export default class NavBar extends Component {
 			hasScrolled: false,
 		}
 	}
+	// Listen if the window is scrolled
 	componentDidMount() {
 		window.addEventListener('scroll', this.handleScroll)
 	}
-
 	handleScroll = event => {
 		const scrollTop = window.pageYOffset
 		// If the page scroll hasScrolled become true
@@ -29,12 +29,10 @@ export default class NavBar extends Component {
 			this.setState({ hasScrolled: false })
 		}
 	}
-
 	scrollToTop() {
 		//scroll at top of the page
 		scroll.scrollToTop()
 	}
-
 	render() {
 		return (
 			<Fragment>

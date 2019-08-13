@@ -1,35 +1,15 @@
 import React, { Component, Fragment } from 'react'
-import { Events, animateScroll as scroll, scroller } from 'react-scroll'
+import { animateScroll as scroll } from 'react-scroll'
 import { NavLink } from 'react-router-dom'
 
 /** Images */
 import { logo } from '../../img'
 
 export default class NavBar extends Component {
-	constructor(props) {
-		super(props)
-		this.scrollToTop = this.scrollToTop.bind(this)
-	}
-	componentDidMount() {
-		Events.scrollEvent.register('begin', function() {
-			console.log('begin', arguments)
-		})
-	}
 	scrollToTop() {
+		//scroll at top of the page onClick
 		scroll.scrollToTop()
 	}
-	scrollTo() {
-		scroller.scrollTo('scroll-to-element', {
-			duration: 800,
-			delay: 0,
-			smooth: 'easeInOutQuart',
-		})
-	}
-	componentWillUnmount() {
-		Events.scrollEvent.remove('begin')
-		Events.scrollEvent.remove('end')
-	}
-
 	render() {
 		return (
 			<Fragment>
