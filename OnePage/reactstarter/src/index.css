@@ -1,29 +1,27 @@
+/* - - - - - - - - - - GENERALE - - - - - - - - - - - - */
 html,
 body {
 	height: 100%;
 	margin: 0;
 }
 body {
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 0.0625em;
+	background-color: rgb(250, 250, 250);
+	color: black;
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
 	width: 100%;
 	height: 100%;
+	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
-
-/* For Centered a div */
-.CenterDiv {
-	text-align: center;
-	top: 50%;
-	left: 50%;
-	position: absolute;
-	-ms-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
-
-/* Default app.js - REACT.js */
+/* -------------- Default app.js - REACT.js -------------- */
 .App {
 	text-align: center;
 }
