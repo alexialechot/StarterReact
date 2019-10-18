@@ -1,5 +1,5 @@
 # ReactStarter 
-## Updated: Juli 2019
+## Updated: October 2019
 
 
 ### Simple:

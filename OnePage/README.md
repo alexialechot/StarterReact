@@ -1,5 +1,4 @@
 # ReactStarter + # Hash (anchor) link 
-## updated: june 2019
 
 ![Preview](./preview2.png)
 
