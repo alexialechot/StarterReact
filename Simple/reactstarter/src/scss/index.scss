@@ -1,5 +1,4 @@
 @import './colors.scss';
-@import './button.scss';
 @import './font.scss';
 @import './navbar.scss';
 @import './footer.scss';
@@ -17,9 +16,6 @@ a {
 a:hover {
 	text-decoration: none;
 	color: $primary;
-}
-.NoDecoration:hover {
-	text-decoration: none;
 }
 
 /* - - - - - - - CONTAINER - - - - - - - - */

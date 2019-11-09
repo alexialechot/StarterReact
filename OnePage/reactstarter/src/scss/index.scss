@@ -1,5 +1,4 @@
 @import './colors.scss';
-@import './button.scss';
 @import './font.scss';
 @import './navbar.scss';
 @import './footer.scss';
@@ -13,13 +12,10 @@ $spacers: ('6': 6rem, '7': 7.7rem, '8': 6.5rem, '9': 10rem, '10': 11.6rem, '11':
 /* - - - - - -  - - - A - - - - - - - - - - */
 a {
 	color: #61dafb;
+	text-decoration: none;
 }
 a:hover {
-	text-decoration: none;
 	color: $primary;
-}
-.NoDecoration:hover {
-	text-decoration: none;
 }
 
 /* - - - - - - - CONTAINER - - - - - - - - */

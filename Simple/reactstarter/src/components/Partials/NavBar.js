@@ -37,12 +37,7 @@ export default class NavBar extends Component {
 										to="/tutos"
 										onClick={this.scrollToTop}
 									>
-										<button
-											type="button"
-											className="btn BtnWhite font-weight-bold"
-										>
-											<h3 className="">TUTOS</h3>
-										</button>
+										<h3 className="">TUTOS</h3>
 									</NavLink>
 								</li>
 								<li className="nav-item">
@@ -51,12 +46,7 @@ export default class NavBar extends Component {
 										to="/themes"
 										onClick={this.scrollToTop}
 									>
-										<button
-											type="button"
-											className="btn BtnWhite font-weight-bold"
-										>
-											<h3 className="">THEMES</h3>
-										</button>
+										<h3 className="">THEMES</h3>
 									</NavLink>
 								</li>
 								<li className="nav-item">
@@ -65,12 +55,7 @@ export default class NavBar extends Component {
 										to="/profile"
 										onClick={this.scrollToTop}
 									>
-										<button
-											type="button"
-											className="btn BtnWhite font-weight-bold"
-										>
-											<h3 className="">PROFIL</h3>
-										</button>
+										<h3 className="">PROFIL</h3>
 									</NavLink>
 								</li>
 							</ul>

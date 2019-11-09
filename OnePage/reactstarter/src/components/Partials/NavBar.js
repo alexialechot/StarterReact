@@ -71,12 +71,7 @@ export default class NavBar extends Component {
 									data-target=".navbar-collapse.show"
 								>
 									<Link className="nav-link" to="#1" smooth={true}>
-										<button
-											type="button"
-											className="btn BtnWhite font-weight-bold"
-										>
-											<h3 className="">1</h3>
-										</button>
+										<h3 className="font-weight-bold my-auto p-2">1</h3>
 									</Link>
 								</li>
 								<li
@@ -85,12 +80,7 @@ export default class NavBar extends Component {
 									data-target=".navbar-collapse.show"
 								>
 									<Link className="nav-link" to="#2" smooth={true}>
-										<button
-											type="button"
-											className="btn BtnWhite font-weight-bold"
-										>
-											<h3 className="">2</h3>
-										</button>
+										<h3 className="font-weight-bold my-auto p-2">2</h3>
 									</Link>
 								</li>
 								<li
@@ -99,12 +89,7 @@ export default class NavBar extends Component {
 									data-target=".navbar-collapse.show"
 								>
 									<Link className="nav-link" to="#3" smooth={true}>
-										<button
-											type="button"
-											className="btn BtnWhite font-weight-bold"
-										>
-											<h3 className="">3</h3>
-										</button>
+										<h3 className="font-weight-bold my-auto p-2">3</h3>
 									</Link>
 								</li>
 							</Scrollspy>
