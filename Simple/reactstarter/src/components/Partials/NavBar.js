@@ -3,7 +3,7 @@ import { animateScroll as scroll } from 'react-scroll'
 import { NavLink } from 'react-router-dom'
 
 /** Images */
-import { logo } from '../../img'
+import { logo } from 'images'
 
 export default class NavBar extends Component {
 	scrollToTop() {

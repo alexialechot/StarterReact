@@ -1,7 +1,5 @@
 import React, { Component, Fragment } from 'react'
 
-/** Images */
-
 export default class Footer extends Component {
 	render() {
 		return (

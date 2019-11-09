@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react'
 
 /** Images */
-import { logo } from '../../img'
+import { logo } from 'images'
 
 export default class Reactstarter extends Component {
 	render() {

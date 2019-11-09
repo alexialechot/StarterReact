@@ -7,7 +7,7 @@ import { animateScroll as scroll } from 'react-scroll'
 import Scrollspy from 'react-scrollspy'
 
 /** Images */
-import { logo } from '../../img'
+import { logo } from 'images'
 
 export default class NavBar extends Component {
 	constructor(props) {
