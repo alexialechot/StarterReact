@@ -1,5 +1,5 @@
 # ReactStarter 
-## Updated: November 2019
+## Updated: February 2020
 
 
 ### Simple:
@@ -11,4 +11,4 @@
 
 <br><hr><br>
 
-&copy; 2019 [Alexia Lechot / KRAKENWAVE](https://krakenwave.ch)
+&copy; 2020 [Alexia Lechot / KRAKENWAVE](https://krakenwave.ch)

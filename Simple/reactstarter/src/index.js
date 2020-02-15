@@ -1,7 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-/** CSS */
+/** CSS 
+------------------------------------------------------------ */
 /** custom */
 import './index.css'
 /** bootstrap */
@@ -11,10 +12,12 @@ import 'font-awesome/css/font-awesome.min.css'
 /** custom scss */
 import './scss/index.scss'
 
-/** APP */
+/** APP 
+------------------------------------------------------------ */
 import App from './App'
 
-/** JS */
+/** JS 
+------------------------------------------------------------ */
 /** jQuery first, then Popper.js, then Bootstrap JS */
 import 'jquery/dist/jquery.min.js'
 import 'popper.js/dist/popper-utils.js'
